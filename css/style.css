@@ -1,0 +1,355 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.div1{
+    background-image: url(../images/img2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 195vh;
+}
+
+.overley{
+    overflow: auto;
+}
+.overley{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 195vh;
+    background: rgba(0, 0, 0, .1);
+}
+
+.div2{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    left: 15px;
+    top: 20px;
+    background-image: url(../images/review_4.png);
+    background-size: cover;
+    animation-name: change;
+    animation-duration: 6s;
+    animation-timing-function:linear;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+@keyframes change{
+    0%{
+        background-image: url(../images/img!.jpg);
+        left: 0px;
+    }
+
+    25%{
+        background-image: url(../images/img$.jpg);
+    }
+
+    50%{
+        background-image: url(../images/img%.jpg);
+
+    }
+
+    75%{
+        background-image: url(../images/img@.jpg);
+    }
+
+    100%{
+        background-image: url(../images/img@@.jpg);
+        left: 1360px;
+    }
+}
+
+.div3{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    right: 15px;
+    top: 190px;
+    background-image: url(../images/review_3.png);
+    background-size: cover;
+    animation-name: zozo;
+    animation-duration: 6s;
+    animation-timing-function:linear;
+    animation-fill-mode: forwards;
+    animation-delay: 7s;
+}
+
+@keyframes zozo{
+    0%{
+        background-image: url(../images/review_2.png);
+        right: 0px;
+    }
+
+    25%{
+        background-image: url(../images/review_1.png);
+    }
+
+    50%{
+        background-image: url(../images/img$.jpg);
+
+    }
+
+    75%{
+        background-image: url(../images/img@.jpg);
+    }
+
+    100%{
+        background-image: url(../images/img!.jpg);
+        right: 1360px;
+    }
+}
+
+.div4{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    left: 15px;
+    top: 360px;
+    background-image: url(../images/review_2.png);
+    background-size: cover;
+    animation-name: zezo;
+    animation-duration: 6s;
+    animation-timing-function:linear;
+    animation-fill-mode: forwards;
+    animation-delay: 13s;
+}
+
+@keyframes zezo{
+    0%{
+        background-image: url(../images/review_3.png);
+        left: 0px;
+    }
+
+    25%{
+        background-image: url(../images/img%.jpg);
+    }
+
+    50%{
+        background-image: url(../images/review_1.png);
+
+    }
+
+    75%{
+        background-image: url(../images/img@.jpg);
+    }
+
+    100%{
+        background-image: url(../images/review_4.png);
+        left: 1360px;
+    }
+}
+
+
+.div5{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    right: 15px;
+    top: 530px;
+    background-image: url(../images/review_1.png);
+    background-size: cover;
+    animation-name: mero;
+    animation-duration: 6s;
+    animation-timing-function:linear;
+    animation-fill-mode: forwards;
+    animation-delay: 19s;
+}
+
+
+@keyframes mero{
+    0%{
+        background-image: url(../images/review_2.png);
+        right: 0px;
+    }
+
+    25%{
+        background-image: url(../images/img%.jpg);
+    }
+
+    50%{
+        background-image: url(../images/review_3.png);
+
+    }
+
+    75%{
+        background-image: url(../images/review_4.png);
+    }
+
+    100%{
+        background-image: url(../images/img@.jpg);
+        right: 1360px;
+    }
+}
+
+
+.div6{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    left: 15px;
+    top: 700px;
+    background-image: url(../images/img!.jpg);
+    background-size: cover;
+    animation-name: z;
+    animation-duration: 6s;
+    animation-timing-function:linear;
+    animation-fill-mode: forwards;
+    animation-delay: 25s;
+}
+
+@keyframes z{
+    0%{
+        background-image: url(../images/review_3.png);
+        left: 0px;
+    }
+
+    25%{
+        background-image: url(../images/img%.jpg);
+    }
+
+    50%{
+        background-image: url(../images/review_1.png);
+
+    }
+
+    75%{
+        background-image: url(../images/img@.jpg);
+    }
+
+    100%{
+        background-image: url(../images/img$.jpg);
+        left: 1360px;
+    }
+}
+.div7{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    right: 15px;
+    top: 870px;
+    background-image: url(../images/img$.jpg);
+    background-size: cover;
+    animation-name: m;
+    animation-duration: 6s;
+    animation-timing-function:linear;
+    animation-fill-mode: forwards;
+    animation-delay: 31s;
+}
+
+@keyframes m{
+    0%{
+        background-image: url(../images/review_3.png);
+        right: 0px;
+    }
+
+    25%{
+        background-image: url(../images/review_4.png);
+    }
+
+    50%{
+        background-image: url(../images/img@.jpg);
+
+    }
+
+    75%{
+        background-image: url(../images/review_1.png);
+    }
+
+    100%{
+        background-image: url(../images/img%.jpg);
+        right: 1360px;
+    }
+}
+.div8{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    left: 15px;
+    top: 1040px;
+    background-image: url(../images/img%.jpg);
+    background-size: cover;
+    animation-name: v;
+    animation-duration: 6s;
+    animation-timing-function:linear;
+    animation-fill-mode: forwards;
+    animation-delay: 37s;
+}
+
+@keyframes v{
+    0%{
+        background-image: url(../images/img@@.jpg);
+        left: 0px;
+    }
+
+    25%{
+        background-image: url(../images/img$.jpg);
+    }
+
+    50%{
+        background-image: url(../images/review_1.png);
+
+    }
+
+    75%{
+        background-image: url(../images/img@.jpg);
+    }
+
+    100%{
+        background-image: url(../images/review_2.png);
+        left: 1360px;
+    }
+}
+
+.div9{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    right: 15px;
+    top: 1212px;
+    background-image: url(../images/img@@.jpg);
+    background-size: cover;
+    animation-name: x;
+    animation-duration: 6s;
+    animation-timing-function:linear;
+    animation-fill-mode: forwards;
+    animation-delay: 43s;
+}
+
+@keyframes x{
+    0%{
+        background-image: url(../images/review_1.png);
+        right: 0px;
+    }
+
+    25%{
+        background-image: url(../images/img%.jpg);
+    }
+
+    50%{
+        background-image: url(../images/img@.jpg);
+
+    }
+
+    75%{
+        background-image: url(../images/img$.jpg);
+    }
+
+    100%{
+        background-image: url(../images/review_3.png);
+        right: 1360px;
+    }
+}
